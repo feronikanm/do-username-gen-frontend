@@ -1,5 +1,3 @@
-## https://thatcopy.pw/sammy/
-
 # DigitalOcean Username Generator Frontend
 
 **Using https://rubygems.org/gems/do_username**
