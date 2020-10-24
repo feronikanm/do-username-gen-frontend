@@ -63,7 +63,6 @@
 	{:catch error}
 		<h1 id="error" style="color: red">{error.message}</h1>
 	{/await}
-	<img id="sammy" src="/sammy.webp" alt="Sammy">
 	<button id="darkmode" on:click={setDarkMode}>
 		Darkmode: Off
 	</button>
@@ -78,13 +77,6 @@
   		margin-right: auto;
 		justify-content: center;
 		flex-direction: column;
-	}
-	#sammy{
-		display: block;
-  		margin-left: auto;
-  		margin-right: auto;
-  		width: 50%;
-		margin-bottom: 24px;
 	}
 	h1{
 		text-align: center;
