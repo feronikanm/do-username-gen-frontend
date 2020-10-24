@@ -24,11 +24,11 @@
 	</button>
 
 	{#await promise}
-		<h3>...loading</h3>
+		<h1>...loading</h1>
 	{:then username}
-		<h3>{username}</h3>
+		<h1>{username}</h1>
 	{:catch error}
-		<h3 style="color: red">{error.message}</h3>
+		<h1 style="color: red">{error.message}</h1>
 	{/await}
 	<img id="sammy" src="/sammy.webp" alt="Sammy">
 </div>
@@ -49,7 +49,7 @@
   		margin-right: auto;
   		width: 50%;
 	}
-	h3{
+	h1{
 		text-align: center;
 	}
 	
